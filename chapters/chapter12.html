@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 12: Electricity - NCERT Science Class 10</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="chapter-header">
+        <div class="container">
+            <a href="../index.html" class="back-btn">← Back to Home</a>
+            <h1>Chapter 12: Electricity</h1>
+        </div>
+    </header>
+
+    <main class="chapter-content">
+        <div class="container">
+            <section class="key-topics">
+                <h2>Key Topics</h2>
+                <ul>
+                    <li>Electric Current and Circuit</li>
+                    <li>Electric Potential and Potential Difference</li>
+                    <li>Circuit Diagram</li>
+                    <li>Ohm's Law</li>
+                    <li>Factors on which the Resistance of a Conductor Depends</li>
+                    <li>Resistance of a System of Resistors</li>
+                    <li>Heating Effect of Electric Current</li>
+                    <li>Electric Power</li>
+                </ul>
+            </section>
+
+            <section class="content-section">
+                <h3>1. Electric Current and Circuit</h3>
+                <p>Electric current is the flow of electric charge through a conductor.</p>
+                
+                <div class="definition-box">
+                    <h4>Definition: Electric Current</h4>
+                    <p>The rate of flow of electric charge through a conductor.</p>
+                </div>
+
+                <div class="formula-box">
+                    <h4>Current Formula:</h4>
+                    <p>I = Q/t</p>
+                    <p>Where: I = current (A), Q = charge (C), t = time (s)</p>
+                </div>
+
+                <div class="image-placeholder">
+                    <h4>Diagram: Simple Electric Circuit</h4>
+                    <svg width="100%" height="300" viewBox="0 0 800 300" style="background: white; border-radius: 8px;">
+                        <!-- Battery -->
+                        <rect x="100" y="120" width="40" height="60" fill="#ffeaa7" stroke="#fdcb6e" stroke-width="2"/>
+                        <line x1="100" y1="150" x2="140" y2="150" stroke="#2d3436" stroke-width="3"/>
+                        <text x="120" y="200" text-anchor="middle" fill="#636e72" font-size="10">Battery</text>
+                        
+                        <!-- Wire -->
+                        <line x1="140" y1="150" x2="300" y2="150" stroke="#2d3436" stroke-width="3"/>
+                        <line x1="300" y1="150" x2="300" y2="200" stroke="#2d3436" stroke-width="3"/>
+                        <line x1="300" y1="200" x2="100" y2="200" stroke="#2d3436" stroke-width="3"/>
+                        <line x1="100" y1="200" x2="100" y2="150" stroke="#2d3436" stroke-width="3"/>
+                        
+                        <!-- Bulb -->
+                        <circle cx="300" cy="150" r="20" fill="#ff6b6b" stroke="#d63031" stroke-width="2"/>
+                        <text x="300" y="155" text-anchor="middle" fill="white" font-weight="bold" font-size="12">Bulb</text>
+                        
+                        <!-- Current direction -->
+                        <polygon points="200,145 210,150 200,155" fill="#ff6b6b"/>
+                        <text x="220" y="140" text-anchor="middle" fill="#d63031" font-size="10">I</text>
+                        
+                        <!-- Labels -->
+                        <text x="400" y="100" text-anchor="middle" fill="#2d3436" font-weight="bold" font-size="12">Circuit Components:</text>
+                        <text x="400" y="120" text-anchor="middle" fill="#636e72" font-size="10">• Battery - Source of energy</text>
+                        <text x="400" y="135" text-anchor="middle" fill="#636e72" font-size="10">• Wire - Conducts current</text>
+                        <text x="400" y="150" text-anchor="middle" fill="#636e72" font-size="10">• Bulb - Load/Resistance</text>
+                    </svg>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>2. Electric Potential and Potential Difference</h3>
+                <p>Electric potential is the work done per unit charge to bring a charge from infinity to a point.</p>
+
+                <div class="definition-box">
+                    <h4>Definition: Potential Difference</h4>
+                    <p>The work done per unit charge in moving a charge between two points.</p>
+                </div>
+
+                <div class="formula-box">
+                    <h4>Potential Difference:</h4>
+                    <p>V = W/Q</p>
+                    <p>Where: V = potential difference (V), W = work done (J), Q = charge (C)</p>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>Units:</h4>
+                    <ul>
+                        <li>Voltage: Volt (V)</li>
+                        <li>Current: Ampere (A)</li>
+                        <li>Resistance: Ohm (Ω)</li>
+                        <li>Power: Watt (W)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>3. Ohm's Law</h3>
+                <p>Ohm's law states that current through a conductor is directly proportional to voltage.</p>
+
+                <div class="definition-box">
+                    <h4>Definition: Ohm's Law</h4>
+                    <p>At constant temperature, the current through a conductor is directly proportional to the potential difference across it.</p>
+                </div>
+
+                <div class="formula-box">
+                    <h4>Ohm's Law Formula:</h4>
+                    <p>V = IR</p>
+                    <p>Where: V = voltage (V), I = current (A), R = resistance (Ω)</p>
+                </div>
+
+                <div class="image-placeholder">
+                    <h4>Diagram: Ohm's Law Graph</h4>
+                    <svg width="100%" height="300" viewBox="0 0 800 300" style="background: white; border-radius: 8px;">
+                        <!-- Axes -->
+                        <line x1="100" y1="250" x2="700" y2="250" stroke="#2d3436" stroke-width="2"/>
+                        <line x1="100" y1="50" x2="100" y2="250" stroke="#2d3436" stroke-width="2"/>
+                        
+                        <!-- Labels -->
+                        <text x="400" y="270" text-anchor="middle" fill="#636e72" font-size="12">Current (I)</text>
+                        <text x="80" y="150" text-anchor="middle" fill="#636e72" font-size="12" transform="rotate(-90, 80, 150)">Voltage (V)</text>
+                        
+                        <!-- Graph line -->
+                        <line x1="100" y1="250" x2="600" y2="100" stroke="#ff6b6b" stroke-width="3"/>
+                        
+                        <!-- Points -->
+                        <circle cx="200" cy="220" r="3" fill="#ff6b6b"/>
+                        <circle cx="300" cy="190" r="3" fill="#ff6b6b"/>
+                        <circle cx="400" cy="160" r="3" fill="#ff6b6b"/>
+                        <circle cx="500" cy="130" r="3" fill="#ff6b6b"/>
+                        
+                        <!-- Slope -->
+                        <text x="350" y="120" text-anchor="middle" fill="#636e72" font-size="10">Slope = R</text>
+                    </svg>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>4. Factors Affecting Resistance</h3>
+                <p>Resistance depends on material, length, area, and temperature.</p>
+
+                <div class="formula-box">
+                    <h4>Resistance Formula:</h4>
+                    <p>R = ρL/A</p>
+                    <p>Where: R = resistance (Ω), ρ = resistivity (Ωm), L = length (m), A = area (m²)</p>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>Factors Affecting Resistance:</h4>
+                    <ul>
+                        <li><strong>Length:</strong> R ∝ L (directly proportional)</li>
+                        <li><strong>Area:</strong> R ∝ 1/A (inversely proportional)</li>
+                        <li><strong>Material:</strong> Different materials have different resistivity</li>
+                        <li><strong>Temperature:</strong> Resistance changes with temperature</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>5. Resistors in Series and Parallel</h3>
+                <p>Resistors can be connected in series or parallel combinations.</p>
+
+                <div class="image-placeholder">
+                    <h4>Diagram: Resistor Combinations</h4>
+                    <svg width="100%" height="300" viewBox="0 0 800 300" style="background: white; border-radius: 8px;">
+                        <!-- Series -->
+                        <g transform="translate(100,100)">
+                            <text x="0" y="-30" text-anchor="middle" fill="#2d3436" font-weight="bold" font-size="12">Series</text>
+                            <line x1="0" y1="0" x2="50" y2="0" stroke="#2d3436" stroke-width="2"/>
+                            <rect x="50" y="-10" width="30" height="20" fill="#ff6b6b" stroke="#d63031" stroke-width="1"/>
+                            <text x="65" y="5" text-anchor="middle" fill="white" font-size="8">R₁</text>
+                            <line x1="80" y1="0" x2="130" y2="0" stroke="#2d3436" stroke-width="2"/>
+                            <rect x="130" y="-10" width="30" height="20" fill="#74b9ff" stroke="#0984e3" stroke-width="1"/>
+                            <text x="145" y="5" text-anchor="middle" fill="white" font-size="8">R₂</text>
+                            <line x1="160" y1="0" x2="210" y2="0" stroke="#2d3436" stroke-width="2"/>
+                            <text x="105" y="30" text-anchor="middle" fill="#636e72" font-size="10">R = R₁ + R₂</text>
+                        </g>
+                        
+                        <!-- Parallel -->
+                        <g transform="translate(400,100)">
+                            <text x="0" y="-30" text-anchor="middle" fill="#2d3436" font-weight="bold" font-size="12">Parallel</text>
+                            <line x1="0" y1="0" x2="50" y2="0" stroke="#2d3436" stroke-width="2"/>
+                            <line x1="50" y1="0" x2="50" y2="-30" stroke="#2d3436" stroke-width="2"/>
+                            <line x1="50" y1="0" x2="50" y2="30" stroke="#2d3436" stroke-width="2"/>
+                            
+                            <rect x="50" y="-50" width="30" height="20" fill="#ff6b6b" stroke="#d63031" stroke-width="1"/>
+                            <text x="65" y="-35" text-anchor="middle" fill="white" font-size="8">R₁</text>
+                            
+                            <rect x="50" y="30" width="30" height="20" fill="#74b9ff" stroke="#0984e3" stroke-width="1"/>
+                            <text x="65" y="45" text-anchor="middle" fill="white" font-size="8">R₂</text>
+                            
+                            <line x1="80" y1="-40" x2="130" y2="-40" stroke="#2d3436" stroke-width="2"/>
+                            <line x1="80" y1="40" x2="130" y2="40" stroke="#2d3436" stroke-width="2"/>
+                            <line x1="130" y1="-40" x2="130" y2="40" stroke="#2d3436" stroke-width="2"/>
+                            <line x1="130" y1="0" x2="180" y2="0" stroke="#2d3436" stroke-width="2"/>
+                            
+                            <text x="105" y="70" text-anchor="middle" fill="#636e72" font-size="10">1/R = 1/R₁ + 1/R₂</text>
+                        </g>
+                    </svg>
+                </div>
+
+                <div class="formula-box">
+                    <h4>Series Resistance:</h4>
+                    <p>R = R₁ + R₂ + R₃ + ...</p>
+                </div>
+
+                <div class="formula-box">
+                    <h4>Parallel Resistance:</h4>
+                    <p>1/R = 1/R₁ + 1/R₂ + 1/R₃ + ...</p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>6. Heating Effect of Electric Current</h3>
+                <p>When current flows through a conductor, it produces heat due to resistance.</p>
+
+                <div class="definition-box">
+                    <h4>Definition: Joule's Law</h4>
+                    <p>The heat produced in a conductor is directly proportional to the square of current, resistance, and time.</p>
+                </div>
+
+                <div class="formula-box">
+                    <h4>Heat Produced:</h4>
+                    <p>H = I²Rt</p>
+                    <p>Where: H = heat (J), I = current (A), R = resistance (Ω), t = time (s)</p>
+                </div>
+
+                <div class="example-box">
+                    <h4>Example: Electric Heater</h4>
+                    <p>An electric heater with resistance 50Ω draws current 4A for 2 hours. Heat produced = 4² × 50 × 7200 = 5,760,000 J.</p>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>7. Electric Power</h3>
+                <p>Electric power is the rate at which electrical energy is consumed.</p>
+
+                <div class="definition-box">
+                    <h4>Definition: Electric Power</h4>
+                    <p>The rate at which electrical energy is consumed or transferred.</p>
+                </div>
+
+                <div class="formula-box">
+                    <h4>Power Formula:</h4>
+                    <p>P = VI = I²R = V²/R</p>
+                    <p>Where: P = power (W), V = voltage (V), I = current (A), R = resistance (Ω)</p>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>Power Units:</h4>
+                    <ul>
+                        <li>Watt (W) = 1 joule/second</li>
+                        <li>Kilowatt (kW) = 1000 watts</li>
+                        <li>Horsepower (hp) = 746 watts</li>
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 NCERT Science Class 10 Guide. Made by AI Assistant</p>
+            <p><a href="https://ncert.nic.in/" target="_blank">Official NCERT Website</a></p>
+            <p>Subject Credits: NCERT Science Textbook Class 10</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html> 

@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 13: Magnetic Effects of Electric Current - NCERT Science Class 10</title>
+    <link rel="stylesheet" href="../styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="chapter-header">
+        <div class="container">
+            <a href="../index.html" class="back-btn">← Back to Home</a>
+            <h1>Chapter 13: Magnetic Effects of Electric Current</h1>
+        </div>
+    </header>
+
+    <main class="chapter-content">
+        <div class="container">
+            <section class="key-topics">
+                <h2>Key Topics</h2>
+                <ul>
+                    <li>Magnetic Field and Field Lines</li>
+                    <li>Magnetic Field due to a Current-Carrying Conductor</li>
+                    <li>Magnetic Field due to Current through a Straight Conductor</li>
+                    <li>Magnetic Field due to Current through a Circular Loop</li>
+                    <li>Magnetic Field due to Current in a Solenoid</li>
+                    <li>Force on a Current-Carrying Conductor in a Magnetic Field</li>
+                    <li>Electric Motor</li>
+                    <li>Electromagnetic Induction</li>
+                    <li>Electric Generator</li>
+                    <li>Domestic Electric Circuits</li>
+                </ul>
+            </section>
+
+            <section class="content-section">
+                <h3>1. Magnetic Field and Field Lines</h3>
+                <p>A magnetic field is a region around a magnet where magnetic forces can be detected.</p>
+                
+                <div class="definition-box">
+                    <h4>Definition: Magnetic Field</h4>
+                    <p>A region around a magnet or current-carrying conductor where magnetic forces can be experienced.</p>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>Properties of Magnetic Field Lines:</h4>
+                    <ul>
+                        <li>They emerge from North pole and enter South pole</li>
+                        <li>They never intersect each other</li>
+                        <li>They are closer where field is stronger</li>
+                        <li>They form closed loops</li>
+                    </ul>
+                </div>
+
+                <div class="image-placeholder">
+                    <h4>Diagram: Magnetic Field Lines</h4>
+                    <svg width="100%" height="300" viewBox="0 0 800 300" style="background: white; border-radius: 8px;">
+                        <!-- Bar magnet -->
+                        <rect x="350" y="120" width="100" height="60" fill="#ff6b6b" stroke="#d63031" stroke-width="2"/>
+                        <text x="400" y="155" text-anchor="middle" fill="white" font-weight="bold" font-size="12">N</text>
+                        <text x="400" y="175" text-anchor="middle" fill="white" font-weight="bold" font-size="12">S</text>
+                        
+                        <!-- Field lines -->
+                        <path d="M 450 150 Q 500 120 550 150" fill="none" stroke="#74b9ff" stroke-width="2"/>
+                        <path d="M 450 150 Q 500 180 550 150" fill="none" stroke="#74b9ff" stroke-width="2"/>
+                        <path d="M 350 150 Q 300 120 250 150" fill="none" stroke="#74b9ff" stroke-width="2"/>
+                        <path d="M 350 150 Q 300 180 250 150" fill="none" stroke="#74b9ff" stroke-width="2"/>
+                        
+                        <!-- Arrowheads -->
+                        <polygon points="545,145 550,150 545,155" fill="#74b9ff"/>
+                        <polygon points="255,145 250,150 255,155" fill="#74b9ff"/>
+                        
+                        <!-- Labels -->
+                        <text x="400" y="100" text-anchor="middle" fill="#2d3436" font-weight="bold" font-size="12">Bar Magnet</text>
+                        <text x="600" y="150" text-anchor="middle" fill="#636e72" font-size="10">Field Lines</text>
+                        <text x="200" y="150" text-anchor="middle" fill="#636e72" font-size="10">Field Lines</text>
+                    </svg>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>2. Magnetic Field due to Current-Carrying Conductor</h3>
+                <p>When electric current flows through a conductor, it produces a magnetic field around it.</p>
+
+                <div class="definition-box">
+                    <h4>Definition: Oersted's Discovery</h4>
+                    <p>Electric current produces a magnetic field around the conductor.</p>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>Right-Hand Thumb Rule:</h4>
+                    <p>If you hold the conductor in your right hand with thumb pointing in the direction of current, the curled fingers show the direction of magnetic field lines.</p>
+                </div>
+
+                <div class="image-placeholder">
+                    <h4>Diagram: Right-Hand Thumb Rule</h4>
+                    <svg width="100%" height="300" viewBox="0 0 800 300" style="background: white; border-radius: 8px;">
+                        <!-- Conductor -->
+                        <line x1="200" y1="150" x2="600" y2="150" stroke="#2d3436" stroke-width="4"/>
+                        <text x="400" y="140" text-anchor="middle" fill="#636e72" font-size="10">Current-Carrying Conductor</text>
+                        
+                        <!-- Current direction -->
+                        <polygon points="580,145 590,150 580,155" fill="#ff6b6b"/>
+                        <text x="570" y="130" text-anchor="middle" fill="#d63031" font-size="10">I</text>
+                        
+                        <!-- Magnetic field circles -->
+                        <circle cx="300" cy="150" r="30" fill="none" stroke="#74b9ff" stroke-width="2"/>
+                        <circle cx="400" cy="150" r="30" fill="none" stroke="#74b9ff" stroke-width="2"/>
+                        <circle cx="500" cy="150" r="30" fill="none" stroke="#74b9ff" stroke-width="2"/>
+                        
+                        <!-- Arrowheads on circles -->
+                        <polygon points="300,120 305,125 295,125" fill="#74b9ff"/>
+                        <polygon points="400,120 405,125 395,125" fill="#74b9ff"/>
+                        <polygon points="500,120 505,125 495,125" fill="#74b9ff"/>
+                        
+                        <!-- Hand illustration -->
+                        <ellipse cx="150" cy="150" rx="25" ry="40" fill="#ffeaa7" stroke="#fdcb6e" stroke-width="2"/>
+                        <text x="150" y="155" text-anchor="middle" fill="#636e72" font-size="8">Thumb</text>
+                        <text x="150" y="170" text-anchor="middle" fill="#636e72" font-size="8">(Current)</text>
+                        
+                        <!-- Labels -->
+                        <text x="400" y="220" text-anchor="middle" fill="#636e72" font-size="10">Magnetic Field Lines (Clockwise)</text>
+                    </svg>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>3. Magnetic Field due to Current through a Circular Loop</h3>
+                <p>A current-carrying circular loop produces a magnetic field similar to a bar magnet.</p>
+
+                <div class="definition-box">
+                    <h4>Definition: Solenoid</h4>
+                    <p>A coil of many circular turns of insulated copper wire wrapped closely in the shape of a cylinder.</p>
+                </div>
+
+                <div class="image-placeholder">
+                    <h4>Diagram: Circular Loop and Solenoid</h4>
+                    <svg width="100%" height="300" viewBox="0 0 800 300" style="background: white; border-radius: 8px;">
+                        <!-- Circular loop -->
+                        <g transform="translate(200,150)">
+                            <circle cx="0" cy="0" r="40" fill="none" stroke="#2d3436" stroke-width="3"/>
+                            <text x="0" y="-50" text-anchor="middle" fill="#2d3436" font-weight="bold" font-size="10">Circular Loop</text>
+                            
+                            <!-- Current direction -->
+                            <polygon points="-35,5 -30,0 -35,-5" fill="#ff6b6b"/>
+                            <text x="-50" y="0" text-anchor="middle" fill="#d63031" font-size="8">I</text>
+                            
+                            <!-- Magnetic field -->
+                            <circle cx="0" cy="0" r="60" fill="none" stroke="#74b9ff" stroke-width="1" stroke-dasharray="3,3"/>
+                            <text x="0" y="70" text-anchor="middle" fill="#636e72" font-size="8">Field</text>
+                        </g>
+                        
+                        <!-- Solenoid -->
+                        <g transform="translate(500,150)">
+                            <ellipse cx="0" cy="0" rx="50" ry="20" fill="none" stroke="#2d3436" stroke-width="2"/>
+                            <ellipse cx="0" cy="0" rx="45" ry="18" fill="none" stroke="#2d3436" stroke-width="2"/>
+                            <ellipse cx="0" cy="0" rx="40" ry="16" fill="none" stroke="#2d3436" stroke-width="2"/>
+                            <text x="0" y="-50" text-anchor="middle" fill="#2d3436" font-weight="bold" font-size="10">Solenoid</text>
+                            
+                            <!-- Current arrows -->
+                            <polygon points="-40,5 -35,0 -40,-5" fill="#ff6b6b"/>
+                            <polygon points="40,-5 35,0 40,5" fill="#ff6b6b"/>
+                            
+                            <!-- Magnetic field lines -->
+                            <line x1="-60" y1="0" x2="-80" y2="0" stroke="#74b9ff" stroke-width="2"/>
+                            <line x1="60" y1="0" x2="80" y2="0" stroke="#74b9ff" stroke-width="2"/>
+                            <polygon points="-75,5 -80,0 -75,-5" fill="#74b9ff"/>
+                            <polygon points="75,-5 80,0 75,5" fill="#74b9ff"/>
+                            
+                            <text x="-90" y="0" text-anchor="middle" fill="#636e72" font-size="8">N</text>
+                            <text x="90" y="0" text-anchor="middle" fill="#636e72" font-size="8">S</text>
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>4. Force on a Current-Carrying Conductor in a Magnetic Field</h3>
+                <p>When a current-carrying conductor is placed in a magnetic field, it experiences a force.</p>
+
+                <div class="definition-box">
+                    <h4>Definition: Fleming's Left-Hand Rule</h4>
+                    <p>If the forefinger, middle finger, and thumb of left hand are stretched perpendicular to each other, then forefinger shows magnetic field, middle finger shows current, and thumb shows force.</p>
+                </div>
+
+                <div class="formula-box">
+                    <h4>Force on Conductor:</h4>
+                    <p>F = BIL sin θ</p>
+                    <p>Where: F = force (N), B = magnetic field (T), I = current (A), L = length (m), θ = angle</p>
+                </div>
+
+                <div class="image-placeholder">
+                    <h4>Diagram: Fleming's Left-Hand Rule</h4>
+                    <svg width="100%" height="300" viewBox="0 0 800 300" style="background: white; border-radius: 8px;">
+                        <!-- Hand -->
+                        <ellipse cx="400" cy="150" rx="30" ry="50" fill="#ffeaa7" stroke="#fdcb6e" stroke-width="2"/>
+                        
+                        <!-- Fingers -->
+                        <line x1="400" y1="100" x2="400" y2="80" stroke="#2d3436" stroke-width="3"/>
+                        <line x1="400" y1="150" x2="420" y2="130" stroke="#2d3436" stroke-width="3"/>
+                        <line x1="400" y1="150" x2="380" y2="130" stroke="#2d3436" stroke-width="3"/>
+                        
+                        <!-- Labels -->
+                        <text x="400" y="70" text-anchor="middle" fill="#636e72" font-size="10">Forefinger (B)</text>
+                        <text x="430" y="125" text-anchor="middle" fill="#636e72" font-size="10">Middle (I)</text>
+                        <text x="370" y="125" text-anchor="middle" fill="#636e72" font-size="10">Thumb (F)</text>
+                        
+                        <!-- Magnetic field -->
+                        <line x1="100" y1="150" x2="300" y2="150" stroke="#74b9ff" stroke-width="3"/>
+                        <polygon points="290,145 300,150 290,155" fill="#74b9ff"/>
+                        <text x="200" y="130" text-anchor="middle" fill="#0984e3" font-size="10">Magnetic Field (B)</text>
+                        
+                        <!-- Current -->
+                        <line x1="500" y1="150" x2="700" y2="150" stroke="#ff6b6b" stroke-width="3"/>
+                        <polygon points="690,145 700,150 690,155" fill="#ff6b6b"/>
+                        <text x="600" y="130" text-anchor="middle" fill="#d63031" font-size="10">Current (I)</text>
+                        
+                        <!-- Force -->
+                        <line x1="400" y1="200" x2="400" y2="250" stroke="#2ecc71" stroke-width="3"/>
+                        <polygon points="395,240 400,250 405,240" fill="#2ecc71"/>
+                        <text x="420" y="225" text-anchor="middle" fill="#27ae60" font-size="10">Force (F)</text>
+                    </svg>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>5. Electric Motor</h3>
+                <p>An electric motor converts electrical energy into mechanical energy using magnetic effects.</p>
+
+                <div class="definition-box">
+                    <h4>Definition: Electric Motor</h4>
+                    <p>A device that converts electrical energy into mechanical energy using the force on a current-carrying conductor in a magnetic field.</p>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>Parts of Electric Motor:</h4>
+                    <ul>
+                        <li><strong>Armature:</strong> Coil of wire that rotates</li>
+                        <li><strong>Commutator:</strong> Reverses current direction</li>
+                        <li><strong>Brushes:</strong> Conduct electricity to armature</li>
+                        <li><strong>Field Magnets:</strong> Provide magnetic field</li>
+                    </ul>
+                </div>
+
+                <div class="image-placeholder">
+                    <h4>Diagram: Electric Motor</h4>
+                    <svg width="100%" height="300" viewBox="0 0 800 300" style="background: white; border-radius: 8px;">
+                        <!-- Field magnets -->
+                        <rect x="100" y="100" width="40" height="100" fill="#ff6b6b" stroke="#d63031" stroke-width="2"/>
+                        <rect x="660" y="100" width="40" height="100" fill="#74b9ff" stroke="#0984e3" stroke-width="2"/>
+                        <text x="120" y="220" text-anchor="middle" fill="white" font-weight="bold" font-size="10">N</text>
+                        <text x="680" y="220" text-anchor="middle" fill="white" font-weight="bold" font-size="10">S</text>
+                        
+                        <!-- Armature -->
+                        <rect x="200" y="120" width="300" height="60" fill="none" stroke="#2d3436" stroke-width="3"/>
+                        <text x="350" y="155" text-anchor="middle" fill="#636e72" font-size="10">Armature</text>
+                        
+                        <!-- Commutator -->
+                        <circle cx="200" cy="150" r="15" fill="#ffeaa7" stroke="#fdcb6e" stroke-width="2"/>
+                        <circle cx="500" cy="150" r="15" fill="#ffeaa7" stroke="#fdcb6e" stroke-width="2"/>
+                        <text x="200" y="185" text-anchor="middle" fill="#636e72" font-size="8">Commutator</text>
+                        <text x="500" y="185" text-anchor="middle" fill="#636e72" font-size="8">Commutator</text>
+                        
+                        <!-- Brushes -->
+                        <rect x="180" y="140" width="10" height="20" fill="#2d3436"/>
+                        <rect x="510" y="140" width="10" height="20" fill="#2d3436"/>
+                        <text x="185" y="170" text-anchor="middle" fill="#636e72" font-size="8">Brush</text>
+                        <text x="515" y="170" text-anchor="middle" fill="#636e72" font-size="8">Brush</text>
+                        
+                        <!-- Current -->
+                        <line x1="190" y1="150" x2="200" y2="150" stroke="#ff6b6b" stroke-width="2"/>
+                        <line x1="500" y1="150" x2="510" y2="150" stroke="#ff6b6b" stroke-width="2"/>
+                        <text x="350" y="250" text-anchor="middle" fill="#636e72" font-size="10">Electric Motor</text>
+                    </svg>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>6. Electromagnetic Induction</h3>
+                <p>Electromagnetic induction is the production of electric current by changing magnetic field.</p>
+
+                <div class="definition-box">
+                    <h4>Definition: Electromagnetic Induction</h4>
+                    <p>The production of electric current in a conductor when it is moved through a magnetic field or when magnetic field around it changes.</p>
+                </div>
+
+                <div class="formula-box">
+                    <h4>Induced EMF:</h4>
+                    <p>ε = -N(dΦ/dt)</p>
+                    <p>Where: ε = induced EMF (V), N = number of turns, Φ = magnetic flux (Wb), t = time (s)</p>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>Faraday's Laws:</h4>
+                    <ul>
+                        <li>EMF is induced when magnetic flux changes</li>
+                        <li>Magnitude of EMF is proportional to rate of change of flux</li>
+                        <li>Direction of EMF opposes the change causing it</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>7. Electric Generator</h3>
+                <p>An electric generator converts mechanical energy into electrical energy.</p>
+
+                <div class="definition-box">
+                    <h4>Definition: Electric Generator</h4>
+                    <p>A device that converts mechanical energy into electrical energy using electromagnetic induction.</p>
+                </div>
+
+                <div class="image-placeholder">
+                    <h4>Diagram: AC Generator</h4>
+                    <svg width="100%" height="300" viewBox="0 0 800 300" style="background: white; border-radius: 8px;">
+                        <!-- Coil -->
+                        <rect x="300" y="120" width="200" height="60" fill="none" stroke="#2d3436" stroke-width="3"/>
+                        <text x="400" y="155" text-anchor="middle" fill="#636e72" font-size="10">Coil</text>
+                        
+                        <!-- Magnetic field -->
+                        <rect x="100" y="100" width="40" height="100" fill="#ff6b6b" stroke="#d63031" stroke-width="2"/>
+                        <rect x="660" y="100" width="40" height="100" fill="#74b9ff" stroke="#0984e3" stroke-width="2"/>
+                        <text x="120" y="220" text-anchor="middle" fill="white" font-weight="bold" font-size="10">N</text>
+                        <text x="680" y="220" text-anchor="middle" fill="white" font-weight="bold" font-size="10">S</text>
+                        
+                        <!-- Rotation -->
+                        <circle cx="400" cy="150" r="5" fill="#2d3436"/>
+                        <text x="400" y="200" text-anchor="middle" fill="#636e72" font-size="10">Rotation</text>
+                        
+                        <!-- Output -->
+                        <line x1="500" y1="150" x2="600" y2="150" stroke="#2ecc71" stroke-width="2"/>
+                        <polygon points="590,145 600,150 590,155" fill="#2ecc71"/>
+                        <text x="550" y="130" text-anchor="middle" fill="#27ae60" font-size="10">AC Output</text>
+                        
+                        <!-- Labels -->
+                        <text x="400" y="250" text-anchor="middle" fill="#636e72" font-size="12">AC Generator</text>
+                    </svg>
+                </div>
+            </section>
+
+            <section class="content-section">
+                <h3>8. Domestic Electric Circuits</h3>
+                <p>Domestic electric circuits provide safe distribution of electricity in homes.</p>
+
+                <div class="definition-box">
+                    <h4>Definition: Domestic Circuit</h4>
+                    <p>The electrical wiring system that distributes electricity safely throughout a building.</p>
+                </div>
+
+                <div class="highlight-box">
+                    <h4>Components of Domestic Circuit:</h4>
+                    <ul>
+                        <li><strong>Main Switch:</strong> Controls entire circuit</li>
+                        <li><strong>MCB:</strong> Miniature Circuit Breaker</li>
+                        <li><strong>Fuse:</strong> Safety device that melts on overcurrent</li>
+                        <li><strong>Earthing:</strong> Safety connection to ground</li>
+                    </ul>
+                </div>
+
+                <div class="example-box">
+                    <h4>Example: Power Calculation</h4>
+                    <p>A device draws 2A current at 220V. Power consumed = 2 × 220 = 440W.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 NCERT Science Class 10 Guide. Made by AI Assistant</p>
+            <p><a href="https://ncert.nic.in/" target="_blank">Official NCERT Website</a></p>
+            <p>Subject Credits: NCERT Science Textbook Class 10</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html> 
